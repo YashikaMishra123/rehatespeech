@@ -10,7 +10,6 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.keras.layers import TextVectorizatio
 from sklearn.utils import shuffle
-# import the required libraries
 import pandas as pd
 import numpy as np
 import seaborn as sns
