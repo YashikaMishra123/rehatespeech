@@ -242,7 +242,7 @@ class LossOnHistoryRobert(tf.keras.callbacks.Callback):
         print('F1 Score:', f1)
         print('Binary Accuracy:', binary_accuracy.numpy())
 
-# Assuming you have prepared your training and validation data as x_train, y_train, x_val, y_val
+
 
 model = TFAutoModelForSequenceClassification.from_pretrained("roberta-base", num_labels=2)
 
@@ -279,7 +279,7 @@ y_pred = model.predict(dict(test_inputs))
 
 from sklearn.metrics import confusion_matrix
 
-# Assuming you have actual labels (y_test) and predicted labels (y_pred)
+
 conf_matrix = confusion_matrix(true_labels, predicted_labels)
 
 print("Confusion Matrix:")
