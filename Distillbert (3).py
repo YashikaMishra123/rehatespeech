@@ -292,7 +292,7 @@ import seaborn as sns
 plt.figure(figsize=(8, 6))
 sns.heatmap(conf_matrix, annot=True, fmt='d', 
             xticklabels=['Non-Hate', 'Hate'], yticklabels=['Non-Hate', 'Hate'],
-            cmap='cividis')  # You can change the colormap (e.g., 'coolwarm')
+            cmap='cividis')  
 plt.xlabel('Predicted')
 plt.ylabel('Actual')
 plt.title('Confusion Matrix Heatmap-Decision tree classifer')
